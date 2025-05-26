@@ -1,5 +1,7 @@
 #include <stdio.h>
-// Definindo variáveis para os dados das duas cartas
+
+int main() {
+    // Definindo variáveis para os dados das duas cartas
     char estado1, estado2;
     char codigo1[5], codigo2[5];
     char cidade1[100], cidade2[100];
@@ -64,3 +66,4 @@
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
     return 0;
+}
